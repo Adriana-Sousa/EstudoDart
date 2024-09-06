@@ -1,5 +1,5 @@
 void main(){
-  var nome = "Bob"; //tipo inferido como string, naãopode mudar o tipo
+  var nome = "Bob"; //tipo inferido como string, não pode mudar o tipo
   Object name = "Bem"; //object é a classe geral dos tipos, pode mudar o tipo
   late String firstname; //inicialização tardia 
   const int number = 7; //não pode alterar o valor
