@@ -1,0 +1,13 @@
+import 'dart:io'; // Importa a biblioteca necessária para I/O
+
+void main() {
+  // Pedir o nome ao utilizador
+  stdout.write('Digite o seu nome: '); // Mostra a mensagem sem nova linha
+  String? nome = stdin.readLineSync(); // Lê a entrada do utilizador
+
+  // Pedir a idade ao utilizador
+  stdout.write('Digite a sua idade: ');
+  String? idade = stdin.readLineSync(); // Lê a entrada do utilizador
+
+  print('Olá, $nome! Você tem $idade anos.');
+}
